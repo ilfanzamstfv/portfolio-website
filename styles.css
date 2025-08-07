@@ -162,6 +162,7 @@ nav {
 .home-section {
     background: url("./img/bg.jpg");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     padding: 150px 0 80px;
     min-height: 100vh;
@@ -526,6 +527,12 @@ footer {
     
     .home-content {
         flex-direction: column;
+    }
+
+    .home-section {
+        padding: 100px 0 60px;
+        background-position: center;
+        background-size: cover;
     }
     
     .timeline::before {
