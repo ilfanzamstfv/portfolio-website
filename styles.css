@@ -201,22 +201,6 @@ nav {
   color: var(--white);
 }
 
-.home-button {
-  display: flex;
-  gap: 15px;
-}
-
-.btn-cv {
-  background-color: transparent;
-  color: var(--white);
-  border: 3px solid var(--highlight-color);
-}
-
-.btn-cv:hover {
-  background-color: var(--highlight-color);
-  color: var(--white);
-}
-
 .home-image {
   flex: 1;
   text-align: center;
@@ -269,66 +253,66 @@ nav {
 }
 
 .education h3 {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    color: var(--secondary-color);
-    margin-bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--secondary-color);
+  margin-bottom: 18px;
   font-size: 1.5rem;
 }
 
 .education-card {
-    display: flex;
-    align-items: flex-start;
-    background: transparent;
-    border-radius: 12px;
-    margin-bottom: 30px;
+  display: flex;
+  align-items: flex-start;
+  background: transparent;
+  border-radius: 12px;
+  margin-bottom: 30px;
 }
 
 .edu-timeline {
-    width: 6px;
-    height: 100%;
-    background: linear-gradient(180deg, #03346e 0%, #7f8c8d 100%);
-    border-radius: 6px;
-    margin-right: 22px;
-    min-height: 150px;
+  width: 6px;
+  height: 100%;
+  background: linear-gradient(180deg, #03346e 0%, #7f8c8d 100%);
+  border-radius: 6px;
+  margin-right: 22px;
+  min-height: 150px;
 }
 
 .edu-content h4 {
-    margin: 0 0 8px 0;
-    color: #03346e;
-    font-size: 1.2rem;
-    font-weight: 700;
+  margin: 0 0 8px 0;
+  color: #03346e;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 .edu-content p {
-    margin: 0 0 8px 0;
-    color: #444;
-    font-size: 1rem;
-    line-height: 1.7;
+  margin: 0 0 8px 0;
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.7;
 }
 
 .edu-content span {
-    font-weight: 500;
-    margin-right: 8px;
+  font-weight: 500;
+  margin-right: 8px;
 }
 
 .edu-year {
-    display: inline-block;
-    margin-top: 8px;
-    color: var(--secondary-color);
-    font-size: 0.95rem;
-    background: #f1f4fa;
-    padding: 4px 12px;
-    border-radius: 8px;
+  display: inline-block;
+  margin-top: 8px;
+  color: var(--secondary-color);
+  font-size: 0.95rem;
+  background: #f1f4fa;
+  padding: 4px 12px;
+  border-radius: 8px;
 }
 
 .edu-major i,
 .edu-degree i,
 .edu-status i,
 .edu-gpa i {
-    color: #03346e;
-    margin-right: 4px;
+  color: #03346e;
+  margin-right: 4px;
 }
 
 .skills h3 {
@@ -429,6 +413,7 @@ nav {
   font-size: 0.9rem;
   font-weight: 600;
   background-color: var(--light-color);
+  margin-right: 5px;
 }
 
 .timeline-item::after {
