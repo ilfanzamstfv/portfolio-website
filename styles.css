@@ -203,7 +203,7 @@ nav {
 
 .home-button {
   display: flex;
-  gap: 30px;
+  gap: 15px;
 }
 
 .btn-cv {
@@ -418,6 +418,17 @@ nav {
 
 .timeline-content p {
   font-size: 0.95rem;
+}
+
+.timeline-content span {
+  display: inline-block;
+  margin-top: 10px;
+  color: var(--dark-color);
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background-color: var(--light-color);
 }
 
 .timeline-item::after {
