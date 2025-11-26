@@ -442,7 +442,6 @@ nav {
   display: grid;
   position: relative;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  justify-content: center;
   gap: 3rem;
   padding: 1rem 0;
 }
